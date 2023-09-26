@@ -1,7 +1,7 @@
 import socket
 import sys
 
-port = 2500
+port = 2600
 
 s_sock = socket.socket()
 host = ''

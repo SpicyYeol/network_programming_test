@@ -1,7 +1,7 @@
 #TCP Echo Server Program
 from socket import *
 
-port = 2500		# 포트 번호
+port = 2700		# 포트 번호
 BUFSIZE = 1024	# 수신 버퍼 사이즈
 
 sock = socket(AF_INET, SOCK_STREAM)

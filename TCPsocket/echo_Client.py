@@ -1,6 +1,6 @@
 import socket
 port = int(input("Port No: "))
-address = ("localhost", port) # 주소는 항상 (ip, port) 튜플
+address = ("172.27.87.66", port) # 주소는 항상 (ip, port) 튜플
 BUFSIZE = 1024
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(address) # 서버 연결 요청

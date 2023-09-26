@@ -1,7 +1,7 @@
 import socket
 s_sock = socket.socket()
 host = "localhost"
-port = 2500
+port = 2600
 
 s_sock.connect((host,port))
 s_sock.send("I am ready".encode())
