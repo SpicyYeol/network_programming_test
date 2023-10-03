@@ -1,4 +1,4 @@
-# broadcast_server.py
+# broadcast_client.py
 from socket import *
 
 sock = socket(AF_INET, SOCK_DGRAM) # 브로드캐스팅을 위해 UDP 소켓 사용
