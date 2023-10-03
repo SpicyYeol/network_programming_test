@@ -28,7 +28,7 @@ while True:
         data = data[msg_size:] # 다음
 
         frame  = pickle.loads(frame_data) # 바이트 스트림을 프레임으로 변환
-        cv2.imshow("",frame)
+        cv2.imshow("c",frame)
         key = cv2.waitKey(1) & 0xFF
         if key == ord('q'):
             break

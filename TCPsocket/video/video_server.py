@@ -29,7 +29,7 @@ while True:
             # 메시지 Q unsigned long long d으로 보낼 데이터 크기 전송
             client_socket.sendall(msg)
 
-            cv2.imshow('',frame)
+            cv2.imshow('s',frame)
             key = cv2.waitKey(1) & 0xFF
             if key == ord('q'):
                 client_socket.close()
