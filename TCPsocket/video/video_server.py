@@ -6,7 +6,7 @@ import imutils
 
 #소켓 생성
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-port = 9000
+port = 9100
 server_addr = ('',port)
 #주소와 포트번호 바인드
 server_socket.bind(server_addr)

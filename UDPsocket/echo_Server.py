@@ -6,6 +6,7 @@ sock.bind(("", port))
 while True:
 	data, addr = sock.recvfrom(BUFFSIZE)
 	print("Received message: ", data.decode())
+
 	resp = input(":")
 	sock.sendto(resp.encode(),addr)
 

@@ -6,7 +6,7 @@ import struct
 #소켓 생성
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host_ip = 'localhost' #서버 IP 주소
-port = 9000
+port = 9100
 client_socket.connect((host_ip,port)) # 서버와 연결
 data = b""
 payload_size = struct.calcsize("Q") # 데이터는 unsigned Long Long
